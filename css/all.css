@@ -1,7 +1,7 @@
 @import url("reset.css");
 /* 四種顏色 */
 /*border: 1px solid #000;
-background: #FFF;  */
+  */
 
 /* background: #00FFA3;  */
 
@@ -21,6 +21,9 @@ body{
 .bg-black{
   background: #000;
 }
+.bg-white{
+	background: #FFF;
+}
 .f-col{
   flex-direction: column;
 }
@@ -29,6 +32,7 @@ body{
 }
 .bg-purple{
   background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+	padding: 96px;
 }
 .left{
   height: 848px;
@@ -105,6 +109,30 @@ a{
 .w-526{
 	width: 526px;
 }
+.w-746{
+	width: 746px;
+}
 .intro{
 	background-image: url(../img/background-img.png);
+	padding: 160px 0;
+}
+.mb-36{
+	margin-bottom: 36px;
+}
+.mb-32{
+	margin-bottom: 32px;
+}
+.about{
+	padding: 160px 0;
+}
+.about-left{
+	padding: 46px;
+	flex-wrap: wrap;
+}
+.about-left>li{
+	width: 274px;
+	padding: 16px;
+}
+.arrow-right{
+	background-image: url(../img/trending_flat_black_24dp\ 1.png);
 }
