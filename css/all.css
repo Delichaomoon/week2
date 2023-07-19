@@ -1,0 +1,110 @@
+@import url("reset.css");
+/* 四種顏色 */
+/*border: 1px solid #000;
+background: #FFF;  */
+
+/* background: #00FFA3;  */
+
+/* color: #ff0000; */
+
+body{
+  font-family: 'Bruno Ace', cursive;
+  line-height: 1.5;
+}
+.wrap{
+  max-width: 1920px;
+}
+.container{
+  max-width: 1296px;
+  margin: 0 auto;
+}
+.bg-black{
+  background: #000;
+}
+.f-col{
+  flex-direction: column;
+}
+.tar{
+  text-align: right;
+}
+.bg-purple{
+  background: linear-gradient(180deg, #050014 0%, rgba(1, 2, 30, 0.89) 100%);
+}
+.left{
+  height: 848px;
+  background-image: url(../img/people.png);
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 24px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}
+.ml-a{
+	margin-left: auto;
+}
+.h1{
+  font-size: 128px;
+  color: #00FFA3;
+}
+.h2{
+  font-size: 64px;
+}
+.fz-1{
+  font-size: 32px;
+}
+.fz-2{
+  font-size: 24px;
+}
+.fz-3{
+  font-size: 20px;
+}
+.d-flex{
+  display: flex;
+}
+.white{
+  color: #fff;
+}
+.jcc{
+  justify-content: center;
+}
+.jc-sb{
+  justify-content: space-between;
+}
+.aic{
+  align-items: center;
+}
+.nav{
+  padding-top: 40px;
+}
+.nav a{
+  color:#D1D1D1;
+}
+.banner{
+	margin: 72px;
+}
+.w-636{
+  width: 636px;
+}
+.contact{
+  color: #000;
+  background: #fff;
+  padding: 12px 44px 12px 24px;
+  border-radius: 32px;
+	position: relative;
+}
+.arrow-out{
+	background-image: url(../img/arrow_outward.svg);
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	position: absolute;
+}
+.w-526{
+	width: 526px;
+}
+.intro{
+	background-image: url(../img/background-img.png);
+}
