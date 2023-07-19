@@ -136,3 +136,6 @@ a{
 .arrow-right{
 	background-image: url(../img/trending_flat_black_24dp\ 1.png);
 }
+.icon-list{
+	border-radius: 40px;
+}
