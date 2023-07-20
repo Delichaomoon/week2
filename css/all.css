@@ -133,9 +133,17 @@ a{
 	width: 274px;
 	padding: 16px;
 }
+.contact-left>h3{
+  position: relative;
+}
 .arrow-right{
+  margin-left: 24px;
+  position: absolute;
+  width: 100px;
+  height: 100px;
 	background-image: url(../img/trending_flat_black_24dp\ 1.png);
 }
-.icon-list{
+.icon-img{
+  display: block;
 	border-radius: 40px;
 }
