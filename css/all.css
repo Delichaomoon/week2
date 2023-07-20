@@ -11,6 +11,9 @@ body{
   font-family: 'Bruno Ace', cursive;
   line-height: 1.5;
 }
+img{
+  display: block;
+}
 .wrap{
   max-width: 1920px;
 }
@@ -106,8 +109,26 @@ a{
 	height: 24px;
 	position: absolute;
 }
+.mr-24{
+  margin-right: 24px;
+}
+.w-128{
+  width: 128px;
+}
+.w-196{
+  width: 196px;
+}
+.w-306{
+  width: 306px;
+}
+.w-416{
+  width: 416px;
+}
 .w-526{
 	width: 526px;
+}
+.w-636{
+  width: 636px;
 }
 .w-746{
 	width: 746px;
@@ -121,6 +142,9 @@ a{
 }
 .mb-32{
 	margin-bottom: 32px;
+}
+.mb-16{
+  margin-bottom: 16px;
 }
 .about{
 	padding: 160px 0;
@@ -144,6 +168,11 @@ a{
 	background-image: url(../img/trending_flat_black_24dp\ 1.png);
 }
 .icon-img{
-  display: block;
 	border-radius: 40px;
+}
+.see-more{
+  position: relative;
+}
+.ptb-160{
+  padding: 160px 0;
 }
