@@ -144,6 +144,8 @@ a{
 	background-image: url(../img/trending_flat_black_24dp\ 1.png);
 }
 .icon-img{
-  display: block;
-	border-radius: 40px;
+  object-fit: cover;
+  border-radius: 40px;
+  width: 162px;
+  height: 162px;
 }
