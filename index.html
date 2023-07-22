@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>第二週 - 個人網站</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="css/all.css">
 </head>
 <body>
@@ -26,7 +26,9 @@
 				<p class="h2 white">I’m a front-end <br>developer</p>
 				<h1 class="h1 tar">William</h1>
 				<div class="ml-a">
-					<a href="#" class="contact">contact me<span class="arrow-out"></span></a>
+					<a href="#" class="contact d-flex">contact me
+						<img src="./img/arrow_outward.svg" alt="arrow_outward" class="ml-4">
+					</a>
 				</div>	
 			</div>
 		</div>
@@ -102,17 +104,15 @@
 		<div class="container ptb-160">
 			<h2 class="h2 tar mb-16">My Projects</h2>
 			<div class="project d-flex jc-sb">
-				<div class="w-416 mr-24">
-					<img src="./img/Rectangle 10.png" alt="Rec10">
-				</div>
+				<img class=".w-416" src="./img/Rectangle 10.png" alt="Rec10">
 				<div class="w-856 d-flex f-col jc-sb">
-					<div class="d-flex jc-sb">
-						<div class="w-196 mb-24">
-							<img src="./img/Rectangle 15.png" alt="Rec15">
-						</div>
-						<div class="w-636 d-flex f-col">
+					<div class="d-flex">
+						<img class="w-196 mb-24 mr-24" src="./img/Rectangle 15.png" alt="Rec15">
+						<div class="w-636 d-flex f-col jc-sb">
 							<p>I've worked on a variety of websites, including e-commerce sites, blogs, and landing pages. I take pride in creating clean, efficient, and user-friendly code.</p>
-							<a href="#" class="see-more">SEE MORE <span class="arrow-out"></span></a>
+							<a href="#" class="see-more d-flex">SEE MORE 
+								<img src="./img/arrow_outward-white.png" alt="arrow_outward-white" class="ml-4">
+							</a>
 						</div>
 					</div>
 					<div class="project-right d-flex jc-sb">
@@ -123,5 +123,11 @@
 			</div>
 		</div>
 	</div>
+
+	<footer class="wrap bg-black">
+		<div class="container d-flex jcc aic">
+			<p>all rights reserved @hexschool2023</p>
+		</div>
+	</footer>
 </body>
 </html>
