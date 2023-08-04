@@ -14,9 +14,6 @@ body{
 img{
   display: block;
 }
-.wrap{
-  max-width: 1920px;
-}
 .container{
   max-width: 1296px;
   margin: 0 auto;
@@ -86,14 +83,15 @@ a{
 .nav{
   padding-top: 40px;
 }
-.nav a{
+.nav a,
+.nav li{
   color:#D1D1D1;
 }
 .nav a:hover{
   color: #00FFA3;
 }
 .banner{
-	margin: 72px;
+	padding: 72px 0;
 }
 .w-636{
   width: 636px;
@@ -139,6 +137,8 @@ a{
 }
 .intro{
 	background-image: url(../img/background-img.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 	padding: 160px 0;
 }
 .mb-36{
@@ -161,6 +161,9 @@ a{
 .about-left>li{
 	width: 274px;
 	padding: 16px;
+  margin: 5px;
+  border: 1px solid #E3E3E3;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
 }
 .contact-left>h3{
   position: relative;
