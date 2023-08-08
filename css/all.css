@@ -161,9 +161,12 @@ a{
 .about-left>li{
 	width: 274px;
 	padding: 16px;
-  margin: 5px;
   border: 1px solid #E3E3E3;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.08);
+}
+.about-left>li:nth-child(1),
+.about-left>li:nth-child(2) {
+  margin-bottom: 24px;
 }
 .contact-left>h3{
   position: relative;
